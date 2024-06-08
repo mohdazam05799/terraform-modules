@@ -30,14 +30,7 @@ variable "db_subnet" {
   default     = true
   description = "Mention if DB subnet is required (NAT will not be attached to DB subnets)"
 }
-variable "private_subnet_count" {
-  type    = number
-  default = 1
-}
-variable "db_subnet_count" {
-  type    = number
-  default = 0
-}
+
 variable "nat_count" {
   default = 1
   type    = number
