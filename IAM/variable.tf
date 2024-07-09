@@ -1,0 +1,3 @@
+variable "policy_details" {
+
+}
